@@ -1,0 +1,59 @@
+:root {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: #AC84B1;
+}
+
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+nav a:hover {
+  background-color: #AC84B1;
+  color: #1946E1;
+  cursor: grab;
+}
+
+div .project:hover {
+    color: #1946E1;
+    cursor: grab;
+  }
+
+footer {
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #AC84B1;
+}
+
+#recent-project {
+    display: flex;
+    justify-content: center;
+}
+
+/* .image {
+    object-fit: contain;
+    
+} */
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
