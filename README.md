@@ -20,3 +20,7 @@ I will continue to work on this project and hopefully refine its look as well as
 
 VS Code to edit HTML, CSS and README. GitHub to store and publish.
 
+#### Link to Deployed Site
+https://maliacho.github.io/portfolio-demo/
+
+
