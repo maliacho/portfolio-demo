@@ -1,5 +1,10 @@
 :root {
     font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+  background-color: #d9dcd6;
 }
 
 
@@ -7,6 +12,12 @@ header {
     padding: 30px;
     text-align: center;
     background-color: #AC84B1;
+    font-size: 30px;
+}
+
+a {
+  color: #ffff;
+  font-size: 20px;
 }
 
 
@@ -15,12 +26,23 @@ div {
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
+
+/* section {
+  margin-top: 15px;
+  align-items: baseline;
+} */
 
 nav {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
+}
+
+p {
+  font-size: 16px;
 }
 
 nav a:hover {
