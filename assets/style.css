@@ -8,12 +8,12 @@ body {
 }
 
 
-header {
+/* header {
     padding: 30px;
     text-align: center;
     background-color: #AC84B1;
     font-size: 30px;
-}
+} */
 
 a {
   color: #ffff;
@@ -35,22 +35,22 @@ div {
   align-items: baseline;
 } */
 
-nav {
+/* nav {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-}
+} */
 
 p {
   font-size: 16px;
 }
 
 
-nav a:hover {
+/* nav a:hover {
   background-color: #AC84B1;
   color: #1946E1;
   cursor: grab;
-}
+} */
 
 div .project:hover {
     color: #1946E1;
